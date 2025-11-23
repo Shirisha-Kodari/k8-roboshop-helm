@@ -82,7 +82,7 @@ spec:
             name: mysql
         volumeMounts:
         - name: mysql-data
-          mountPath: /var/lib/mysql
+          mountPath: /var/lib/mysql # volume mounted to this location or path 
   # This is nothing but PVC, you can directly create here
   volumeClaimTemplates:
   - metadata:
